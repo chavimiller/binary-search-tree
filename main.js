@@ -246,14 +246,6 @@ const prettyPrint = (node, prefix = "", isLeft = true) => {
   }
 };
 
-// Insertion method tested
-// Delete method tested
-// Find method tested
-// Level order forEach method tested
-// Height method tested
-// Depth method tested
-// isBalanced method tested
-
 const array1 = [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324];
 const tree1 = new Tree(array1);
 prettyPrint(tree1.root);
